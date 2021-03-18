@@ -11,10 +11,11 @@
 	<groupId>com.Devansh</groupId>
 	<artifactId>SpringDemo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
 	<name>MyWebApp-1</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>8</java.version>
 	</properties>
 	<dependencies>
 	<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core -->
@@ -55,14 +56,6 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-			 <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-compiler-plugin</artifactId>
-            <configuration>
-                <source>1.8</source>
-                <target>1.8</target>
-            </configuration>
-        </plugin>
 		</plugins>
 	</build>
 
